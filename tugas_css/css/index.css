@@ -34,14 +34,15 @@ input:
     width: 250px;
     border-radius: 3px;
 }
-}
+
+table 
 
 .form-ig
 {
     display: block;
 }
 
-.form-ig button
+.form-ig button /*login button*/
 {
     text-align: center;
     background: #A5CEEA;
@@ -125,4 +126,50 @@ input:
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     
+}
+
+.theapp a img
+{
+    height: 50px;
+}
+
+.ftr a
+{
+    margin: 10px; 
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: silver;
+}
+
+footer table
+{
+    margin-bottom: 20px;
+}
+.ftr1 a
+{
+    font-weight: 9000px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: silver;
+    
+}
+.ftr2 
+{
+    display: inline-block;
+}
+
+.ftr2 select
+{
+    border: 0;
+    background-color: #ffffff;
+    padding: 0px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: silver;
+}
+
+.ftr2 p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: silver;
 }
