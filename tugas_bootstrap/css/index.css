@@ -1,0 +1,91 @@
+body
+{
+    background-color: white;
+    position: relative;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+h1
+{
+    margin-top: 11px;
+}
+nav
+{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    top: 0%;
+    width: 100%;
+    position:fixed; 
+    overflow: hidden;
+    z-index: 1;
+}
+.navig ul
+{
+    margin-top: 21px;
+    
+}
+.navig ul li
+{
+    display: inline-block;
+    
+}
+.navig ul li a
+{
+    
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #757575;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+header h5
+{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-family:'Quicksand', sans-serif;
+    vertical-align: baseline;
+    font-weight: 600;
+}
+header p
+{
+    margin-top: 25px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family:'Quicksand', sans-serif;
+    font-weight: 400;
+}
+header video
+{
+    height: 860px;
+    width: 100%;
+    opacity:calc(20%);
+}
+header
+{
+    background-color: #3d9afe;
+    height: 860px;
+}
+main
+{
+    margin: 5%;
+    margin-left: 5%;
+}
+main h3
+{
+    color: #4fb8fe;
+    text-align: left;
+    font-family:'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+main p
+{
+    color: rgb(128, 128, 128);
+    text-align: left;
+    font-family:'Quicksand', sans-serif;
+    font-weight: 400;
+}
