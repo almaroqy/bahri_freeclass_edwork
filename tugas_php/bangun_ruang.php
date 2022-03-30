@@ -27,7 +27,7 @@ echo "<hr>";
 $panjang_sisi_alas = 6; //karena sisi alas limas segiempat persegi
 $tinggi_segitiga_sisi = 10; //sisi segititga yang berdiri
 $setengah_sisi_alas = 1 / 2 * $panjang_sisi_alas;
-$tinggi_limas = sqrt(100 - 36); //tinggi antara unjung limas dengan titik tengah alas //sqrt(tinggi segitiga sisi^2 - panjang sisi alas ^2)
+$tinggi_limas = sqrt((($tinggi_segitiga_sisi) ** 2) - (($panjang_sisi_alas) ** 2)); //tinggi antara unjung limas dengan titik tengah alas //sqrt(tinggi segitiga sisi^2 - panjang sisi alas ^2)
 $luas_alas = $panjang_sisi_alas ** 2;
 $hasil_L = 1 / 3 * $luas_alas * $tinggi_limas;
 
