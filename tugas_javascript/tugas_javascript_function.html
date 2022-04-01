@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Function</title>
+</head>
+<body>
+    <script>
+        function luas_persegi_panjang($panjang, $lebar)
+        {
+            $hasil_PP = $panjang * $lebar;
+
+            console.log ("Panjang: "+ $hasil_PP+ "cm");
+            console.log ("lebar: "+ $lebar+ "cm");
+            console.log ("Luas persegi panjang: " + $hasil_PP + "cm^2");
+        }
+        luas_persegi_panjang(9, 5);
+
+        function luas_persegi($sisi)
+        {
+            $hasil_P = $sisi ** 2;
+
+            console.log ("Panjang sisi persegi: " + $sisi + "cm");
+            console.log ("Luas Persegi: "+ $hasil_P + "cm^2");
+        }
+        luas_persegi(5, 2);
+
+        function luas_segitiga($alas = 5, $tinggi = 2)
+        {
+            $hasil_S = 1 / 2 * ($alas * $tinggi);
+
+            console.log ("Panjang alas segitiga: " + $alas+ "cm");
+            console.log ("Panjang tingi segitiga: " + $tinggi +"cm");
+            console.log ("Luas segitiga: "+ $hasil_S+ "cm^2");
+        }
+        luas_segitiga();
+
+        function luas_lingkaran($jari2 = 3)
+        {
+            $phi = 3.14;
+            $hasil_L = $phi * $jari2;
+
+            console.log ("Jari-jari lingkaran: " + $jari2 + "cm");
+            console.log ("Luas lingkaran: " + $hasil_L + "cm^2");
+        }
+        luas_lingkaran();
+
+        function luas_trapesium($tinggi_trapesium = 5, $sisi_sejajar_A = 4, $sisi_sejajar_B = 8)
+        {
+            $hasil_T  = 1 / 2 * $tinggi_trapesium * ($sisi_sejajar_A + $sisi_sejajar_B);
+
+            console.log ("Tinggi trapesium: " + $tinggi_trapesium + "cm");
+            console.log ("Sisi sejajar trapesium A: " + $sisi_sejajar_A + "cm");
+            console.log ("Sisi sejajar trapesium B: " + $sisi_sejajar_B + "cm");
+            console.log ("Luas trapesium: " + $hasil_T + "cm^2");
+        }
+        luas_trapesium();
+    </script>
+</body>
+</html>
