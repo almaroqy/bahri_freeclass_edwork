@@ -17,7 +17,11 @@
 <body>
     <?php
     include_once("../tugas_CRUD/connect.php");
-    $books = mysqli_query($conn, "SELECT * FROM buku");
+    $books = mysqli_query($conn, "SELECT isbn, judul, tahun, penerbit.nama_penerbit, pengarang.nama_pengarang, qty_stok, harga_pinjam FROM buku
+                                    INNER JOIN penerbit on penerbit.id_penerbit = buku.id_penerbit
+                                    INNER JOIN pengarang on pengarang.id_pengarang = buku.id_pengarang
+                                    ORDER BY judul ASC
+                                    ");
     ?>
 
     <div class="container">
@@ -66,13 +70,13 @@
                                 <td><?= $book['isbn'] ?></td>
                                 <td><?= $book['judul'] ?></td>
                                 <td><?= $book['tahun'] ?></td>
-                                <td><?= $book['id_penerbit'] ?></td>
-                                <td><?= $book['id_pengarang'] ?></td>
+                                <td><?= $book['nama_penerbit'] ?></td>
+                                <td><?= $book['nama_pengarang'] ?></td>
                                 <td><?= $book['qty_stok'] ?></td>
                                 <td><?= $book['harga_pinjam'] ?></td>
                                 <td>
-                                    <a class="btn btn-warning" href="">Edit</a>
-                                    <a class="btn btn-danger" href="">Delete</a>
+                                    <a class="btn btn-info btn-md" href="edit.php?isbn=' <?= $book['isbn'] ?> '">Edit</a>
+                                    <a class="btn btn-danger" href="delete.php?isbn='<?= $book['isbn'] ?>">Delete</a>
                                 </td>
                             </tr>
                         <?php } ?>
