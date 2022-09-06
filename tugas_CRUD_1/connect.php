@@ -4,4 +4,4 @@ $database = 'perpus';
 $username = 'root';
 $password = '';
 
-$conn = mysqli_connect($servernamme, $username, $password, $database);
+$mysqli = mysqli_connect($servernamme, $username, $password, $database);
