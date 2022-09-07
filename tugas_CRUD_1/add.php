@@ -98,7 +98,7 @@
                             <td><input type="text" class="form-control" name="harga_pinjam"></td>
                         </tr>
                         <tr>
-                            <td>ISBN</td>
+                            <td></td>
                             <td><input type="submit" class="form-control btn btn-primary" name="Submit" value="Add"></td>
                         </tr>
                     </table>
