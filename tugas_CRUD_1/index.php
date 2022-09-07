@@ -21,6 +21,7 @@
                                     LEFT JOIN katalog ON katalog.id_katalog = buku.id_katalog
                                     LEFT JOIN penerbit ON penerbit.id_penerbit = buku.id_penerbit
                                     LEFT JOIN pengarang ON pengarang.id_pengarang = buku.id_pengarang
+                                    ORDER BY judul ASC
                                     ");
     ?>
 
@@ -75,9 +76,9 @@
                                         <td>" . $book['nama_katalog'] . "</td>
                                         <td>" . $book['qty_stok'] . "</td>
                                         <td>" . $book['harga_pinjam'] . "</td>
-                                        <td>
-                                            <a>Edit</a>
-                                            <a>Delete</a>
+                                        <td class = 'text-center'>
+                                            <a href = 'edit.php?isbn=" . $book['isbn'] . "' class = 'btn btn-warning'>Edit</a>
+                                            <a href = '#' class = 'btn btn-danger' onclick = 'confirmation(`" . $book['isbn'] . "`)'>Delete</a>
                                         </td>
                                     </tr>
                                 ";
@@ -91,3 +92,10 @@
 </body>
 
 </html>
+<script>
+    function confirmation(isbn) {
+        if (confirm('Apakah anda ingin menghapus data ini?')) {
+            window.location.href = 'delete.php?isbn=' + isbn;
+        }
+    }
+</script>
