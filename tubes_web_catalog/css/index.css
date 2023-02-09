@@ -1,0 +1,90 @@
+/* HEADER NAMA TOKO */
+body
+{
+    background-color: white;
+}
+body .container
+{
+    background-color: #FFBC3C;
+    border-radius: 21px;
+    height: auto;
+    margin-top: 20px;
+}
+.name_web
+{
+    padding-top: 34px;
+    padding-bottom: 24px;
+    width: 53%;
+}
+.name_web:hover
+{
+    padding-top: 34px;
+    padding-bottom: 24px;
+    text-shadow: 1px 1px 1px #000000;
+}
+a h1
+{
+    font-family: 'poppins';
+    font-weight: 800;
+    font-size: 60px;
+    text-align: left;
+    color: black;
+}
+a h4
+{
+    font-family: 'poppins';
+    font-weight:400;
+    font-size: 28px;
+    text-align: left;
+    color: black;
+}
+.desc_web
+{
+    padding-top: 44px;
+    padding-bottom: 24px;
+    margin-left: 150px;
+    text-align: right;
+    font-family: 'poppins';
+}
+/* JENIS-JENIS BUKU */
+main .container
+{
+    background-color: #EBE2D1;
+    border-radius: 21px;
+    width: 80%;
+    height: auto;
+}
+.var_book
+{
+    text-align: center;
+    font-family: 'poppins';
+    color: black;
+    margin-top: 40px;
+}
+.var_book_list 
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 57px;
+    height: 200px;
+    
+}
+.var_book_list:hover
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 57px;
+    height: 200px;
+    box-shadow: 2px 2px 5px #000000;
+}
+.var_book_list p
+{
+    padding-top: 40%;
+    text-align:center;
+    font-family: 'poppins';
+    font-weight: 700; 
+    font-size:20px;
+    color: black;
+}
