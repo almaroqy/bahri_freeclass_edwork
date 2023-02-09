@@ -12,13 +12,13 @@ body .container
 }
 .name_web
 {
-    padding-top: 34px;
+    padding-top: 30px;
     padding-bottom: 24px;
     width: 53%;
 }
 .name_web:hover
 {
-    padding-top: 34px;
+    padding-top: 30px;
     padding-bottom: 24px;
     text-shadow: 1px 1px 1px #000000;
 }
