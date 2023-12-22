@@ -1,0 +1,105 @@
+/* NAMA WEB */
+body
+{
+    background-color: white;
+}
+nav
+{
+    background-color: #ffffff;
+    border-bottom: 4px solid green;
+    width: 100%;
+    height: auto;
+    position:fixed;
+}
+.name_web
+{
+    padding-top: 30px;
+    padding-bottom: 24px;
+    width: 53%;
+    text-shadow: 1px 1px 1px #000000;
+}
+a h1
+{
+    font-family: 'poppins';
+    font-weight: 800;
+    font-size: 60px;
+    text-align: left;
+    color: #FFBC3C;
+}
+a h4
+{
+    font-family: 'poppins';
+    font-weight:400;
+    font-size: 28px;
+    text-align: left;
+    color: #FFBC3C;
+}
+/* NAVIGATION */
+.navig ul
+{
+    list-style: none;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.navig li a
+{
+    float: right;
+    margin-left:70px;
+    color: white;
+    font-family: 'poppins';
+    font-weight:500;
+    text-align: center;
+    text-decoration: none;
+    background-color: #85621E;
+    border-radius: 31px;
+    width: 60px;
+    height: 35px;
+    padding-top: 6px;
+}
+.navig li a:hover
+{
+    float: right;
+    margin-left:70px;
+    color: white;
+    font-family: 'poppins';
+    font-weight:500;
+    text-align: center;
+    text-decoration: none;
+    background-color: #85621E;
+    border-radius: 31px;
+    width: 60px;
+    height: 35px;
+    padding-top: 6px;
+    box-shadow:  2px 2px 7px #000000;
+}
+header
+{
+    background-color: #ffffff;
+    border-bottom: 4px solid green;
+    height: 180px;
+}
+/* DESKRIPSI BUKU */
+main .container
+{
+    width: 1776px;
+    height: 1030.67px;
+    left: 69.33px;
+    top: 334.67px;
+
+    background: #EBE2D1;
+}
+main .col h2
+{
+    text-align: center;
+}
+.book_c
+{
+    width: 331.96px;
+    height: 533.83px;
+    left: 190.65px;
+    top: 495px;
+    
+    background: #FFFFFF;
+    box-shadow: 11.215px 8.97196px 8.97196px rgba(0, 0, 0, 0.25);
+    border-radius: 49.3458px;
+}
