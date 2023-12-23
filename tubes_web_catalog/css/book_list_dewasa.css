@@ -92,14 +92,44 @@ main .col h2
 {
     text-align: center;
 }
-.book_c
+.row_book
 {
-    width: 331.96px;
-    height: 533.83px;
-    left: 190.65px;
-    top: 495px;
+    width: auto;
+    height: fit-content;
     
     background: #FFFFFF;
-    box-shadow: 11.215px 8.97196px 8.97196px rgba(0, 0, 0, 0.25);
     border-radius: 49.3458px;
+}
+.book_c
+{
+    display:flex;
+}
+.book_c img
+{
+    width: 301.96px;
+    height: 423.83px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+    border-radius: 49.3458px;
+}
+
+.book_desc
+{
+    width: 900px;
+    height: 423.83px;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+    border-left: 2px solid #000000;
+}
+.book_desc p
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    font-size: 21px;
+    font-family: 'poppins';
 }
