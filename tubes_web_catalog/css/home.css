@@ -3,12 +3,12 @@ body
 {
     background-color: white;
 }
-body .container
+header .container
 {
     background-color: #FFBC3C;
     border-radius: 21px;
     height: auto;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 .name_web
 {
@@ -16,12 +16,7 @@ body .container
     padding-bottom: 24px;
     width: 53%;
 }
-.name_web:hover
-{
-    padding-top: 30px;
-    padding-bottom: 24px;
-    text-shadow: 1px 1px 1px #000000;
-}
+
 a h1
 {
     font-family: 'poppins';
@@ -53,6 +48,7 @@ main .container
     border-radius: 21px;
     width: 80%;
     height: auto;
+    margin-top: 35px;
 }
 .var_book
 {

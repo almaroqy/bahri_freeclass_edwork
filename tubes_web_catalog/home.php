@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col">
                     <div class="name_web">
-                        <a href="index.php" style="text-decoration: none;">
+                        <a href="home.php" style="text-decoration: none;">
                             <h1>BOOKSTRO</h1><a href="" style="text-decoration: none;">
                                 <h4>Book Store Roqy</h4>
                             </a>
@@ -48,7 +48,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <a href="" style="text-decoration: none;">
+                    <a href="book_list_dewasa.php" style="text-decoration: none;">
                         <div class="var_book_list">
                             <p>Dewasa</p>
                         </div>
@@ -56,7 +56,7 @@
 
                 </div>
                 <div class="col">
-                    <a href="" style="text-decoration: none;">
+                    <a href="book_list_anak.php" style="text-decoration: none;">
                         <div class="var_book_list">
                             <p>Anak</p>
                         </div>
@@ -64,7 +64,7 @@
 
                 </div>
                 <div class="col">
-                    <a href="" style="text-decoration: none;">
+                    <a href="book_list_agama.php" style="text-decoration: none;">
                         <div class="var_book_list">
                             <p>Agama</p>
                         </div>
@@ -72,7 +72,7 @@
 
                 </div>
                 <div class="col">
-                    <a href="" style="text-decoration: none;">
+                    <a href="book_list_umum.php" style="text-decoration: none;">
                         <div class="var_book_list">
                             <p>Umum</p>
                         </div>
@@ -80,7 +80,7 @@
 
                 </div>
                 <div class="col">
-                    <a href="" style="text-decoration: none;">
+                    <a href="book_list_kesehatan.php" style="text-decoration: none;">
                         <div class="var_book_list">
                             <p>Kesehatan</p>
                         </div>
